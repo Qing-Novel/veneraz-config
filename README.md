@@ -7,4 +7,4 @@
 - [cosplaytele](https://github.com/meaninglesslyy/venera-config/blob/main/cosplaytele.js)
 # 生肉
 - [mangaforfree](https://github.com/meaninglesslyy/venera-config/blob/main/mangaforfree.js)
- / 本仓库中文件由deepseek-v4-flash编写 /
+## 本仓库中文件由deepseek-v4-flash编写 
