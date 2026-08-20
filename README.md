@@ -1,5 +1,6 @@
 # venera其他源
 ## 本仓库中文件由本人准备、全部由deepseek-v4-flash编写，可能存在瑕疵
+  多平台适配
 # 使用方法
   首先准备一个[venara](https://github.com/venera-app/venera/releases/tag/v1.6.3),下载对应.js文件后导入veneral
 # 导入方式
