@@ -1,5 +1,5 @@
 # 多平台适配的venera其他源
-## 本项目是为了弥补开源漫画软件[Mihon](https://github.com/mihonapp/mihon)无法在iOS设备上使用的遗憾，其内数百个漫画网站资源无法通过Mihon在iOS设备上使用，于是我想到了自己做漫画源，导入到可以运行于iOS设备的venera，达到了平替效果。本仓库中文件均由本人做前期准备、全部由deepseek-v4-flash编写，可能存在瑕疵，敬请包容。
+## 本项目是为了弥补开源漫画软件[Mihon](https://github.com/mihonapp/mihon)无法在iOS设备上使用的遗憾，其内数百个漫画网站资源无法通过Mihon在iOS设备上使用，于是本项目诞生了，利用可以运行于iOS设备的venera+漫画源.js文件，达到了平替效果。本仓库中文件均由本人做前期准备、全部由deepseek-v4-flash编写，技术文档来源于[原版venera-config](https://github.com/venera-app/venera-configs).可能存在瑕疵，敬请包容。
 # 使用方法
   首先准备一个[venara](https://github.com/venera-app/venera/releases/tag/v1.6.3),下载对应.js文件后导入veneral
   
