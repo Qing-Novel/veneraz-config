@@ -1,7 +1,7 @@
 class CosplayTele extends ComicSource {
     name = "CosplayTele"
     key = "cosplaytele"
-    version = "1.6.0"
+    version = "1.6.1"
     minAppVersion = "1.6.0"
     url = ""
     base = "https://cosplaytele.com"
@@ -357,52 +357,10 @@ class CosplayTele extends ComicSource {
         }
     }
 
-    // ============ 大厅（热门 + 最新） ============
+    // ============ 大厅（最新） ============
     explore = [
         {
-            title: "Cosplaytele Popular",
-            type: "multiPageComicList",
-            load: (p) => {
-                // 使用 WordPress Popular Posts REST API 获取热门文章
-                var requestBody = JSON.stringify({
-                    title: "",
-                    limit: "20",
-                    offset: 0,
-                    range: "daily",
-                    time_quantity: 24,
-                    time_unit: "hour",
-                    freshness: false,
-                    order_by: "views",
-                    post_type: "post",
-                    pid: "",
-                    exclude: "",
-                    cat: "",
-                    taxonomy: "category",
-                    term_id: "",
-                    author: "",
-                    shorten_title: {active: false, length: 0, words: false},
-                    "post-excerpt": {active: false, length: 0, keep_format: false, words: false},
-                    thumbnail: {active: true, build: "manual", width: "1920", height: "1080"},
-                    rating: false,
-                    stats_tag: {comment_count: false, views: "1", author: false, date: {active: false, format: "F j, Y"}, category: false, taxonomy: {active: false, name: "category"}},
-                    markup: {custom_html: true, "wpp-start": "<ul class=\"wpp-list\">", "wpp-end": "</ul>", "title-start": "<h2>", "title-end": "</h2>", "post-html": "<li class=\"{current_class}\">{thumb} {title} <span class=\"wpp-meta post-stats\">{stats}</span><p class=\"wpp-excerpt\">{excerpt}</p></li>"},
-                    theme: {name: ""}
-                })
-                return Network.post("https://cosplaytele.com/wp-json/wordpress-popular-posts/v2/widget", {
-                    "X-Requested-With": "XMLHttpRequest",
-                    "Content-Type": "application/json",
-                    "X-WP-Nonce": "848c6cd23e"
-                }, requestBody).then((r) => {
-                    if (r.status !== 200) throw "err"
-                    var json = JSON.parse(r.body)
-                    return this.parsePopularList(json.widget || "")
-                }).catch(() => {
-                    return {comics: [], maxPage: 1}
-                })
-            }
-        },
-        {
-            title: "Cosplaytele Latest",
+            title: "Cosplaytele",
             type: "multiPageComicList",
             load: (p) => {
                 var url = "https://cosplaytele.com/wp-json/wp/v2/posts?page=" + p + "&per_page=20&_embed&orderby=date&order=desc"
