@@ -7,6 +7,8 @@
   
 ## 导入方式
   漫画源→使用配置文件→选中.js文件打开  
+  <img width="710" height="1201" alt="图片" src="https://github.com/user-attachments/assets/05c1ffe6-ab0a-4bb4-ad46-19a406c152c7" />
+
   <img width="478" height="187" alt="Image" src="https://github.com/user-attachments/assets/9628759b-fbd4-471d-b227-ccff9570ece3" />
   
 # 真人图包
