@@ -17,4 +17,5 @@
 - [cosplaytele](https://github.com/meaninglesslyy/venera-config/blob/main/cosplaytele.js)
 ## 生肉
 - [mangaforfree](https://github.com/meaninglesslyy/venera-config/blob/main/mangaforfree.js)
-
+## 正经漫画
+- [zero搬运网](https://github.com/meaninglesslyy/venera-config/blob/main/zerobyw33.js)
