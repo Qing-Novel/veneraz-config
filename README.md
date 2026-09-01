@@ -20,3 +20,4 @@
 ## 正经漫画
 - [zero搬运网](https://github.com/meaninglesslyy/venera-config/blob/main/zerobyw33.js)
 - [51漫画](https://github.com/meaninglesslyy/venera-config/blob/main/51manga.js)
+- [如漫画](https://github.com/meaninglesslyy/venera-config/blob/main/rumanhua.js)
