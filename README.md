@@ -19,3 +19,4 @@
 - [mangaforfree](https://github.com/meaninglesslyy/venera-config/blob/main/mangaforfree.js)
 ## 正经漫画
 - [zero搬运网](https://github.com/meaninglesslyy/venera-config/blob/main/zerobyw33.js)
+- [51漫画](blob:https://github.com/08fae1db-8c58-4517-a305-55e2bed894df)
