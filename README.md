@@ -13,11 +13,11 @@
   
 # 分类
 ## [真人图包](https://github.com/meaninglesslyy/venera-config/tree/main/%E7%9C%9F%E4%BA%BA%E5%9B%BE%E5%8C%85)
-- [4khd](https://github.com/meaninglesslyy/venera-config/blob/main/4khd.js)
-- [cosplaytele](https://github.com/meaninglesslyy/venera-config/blob/main/cosplaytele.js)
+- [4khd](https://github.com/meaninglesslyy/venera-config/blob/main/%E7%9C%9F%E4%BA%BA%E5%9B%BE%E5%8C%85/4khd.js)
+- [cosplaytele](https://github.com/meaninglesslyy/venera-config/blob/main/%E7%9C%9F%E4%BA%BA%E5%9B%BE%E5%8C%85/cosplaytele.js)
 ## [生肉](https://github.com/meaninglesslyy/venera-config/tree/main/%E7%94%9F%E8%82%89%E6%BC%AB%E7%94%BB)
-- [mangaforfree](https://github.com/meaninglesslyy/venera-config/blob/main/mangaforfree.js)
+- [mangaforfree](https://github.com/meaninglesslyy/venera-config/blob/main/%E7%94%9F%E8%82%89%E6%BC%AB%E7%94%BB/mangaforfree.js)
 ## [正经漫画](https://github.com/meaninglesslyy/venera-config/tree/main/%E6%AD%A3%E7%BB%8F%E6%BC%AB%E7%94%BB)
-- [zero搬运网](https://github.com/meaninglesslyy/venera-config/blob/main/zerobyw33.js)
-- [51漫画](https://github.com/meaninglesslyy/venera-config/blob/main/51manga.js)
-- [如漫画](https://github.com/meaninglesslyy/venera-config/blob/main/rumanhua.js)
+- [zero搬运网](https://github.com/meaninglesslyy/venera-config/blob/main/%E6%AD%A3%E7%BB%8F%E6%BC%AB%E7%94%BB/zerobyw33.js)
+- [51漫画](https://github.com/meaninglesslyy/venera-config/blob/main/%E6%AD%A3%E7%BB%8F%E6%BC%AB%E7%94%BB/51manga.js)
+- [如漫画](https://github.com/meaninglesslyy/venera-config/blob/main/%E6%AD%A3%E7%BB%8F%E6%BC%AB%E7%94%BB/rumanhua.js)
