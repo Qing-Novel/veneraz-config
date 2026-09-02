@@ -4,7 +4,7 @@ class FourKHD extends ComicSource {
     version = "1.4.3"
     minAppVersion = "1.6.0"
     url = ""
-    base = "https://www.4khd.com"
+    base = "https://feza.uuss.uk/"
 
     pageHeaders() {
         return {
@@ -61,7 +61,7 @@ class FourKHD extends ComicSource {
             var t = (a.text || "").trim()
             if (href && t) {
                 // 保留完整路径作为 id，例如: content/14/artgravia-vol728-yeha.html
-                var path = href.replace("https://www.4khd.com/", "")
+                var path = href.replace("https://feza.uuss.uk/", "")
                 c.push({id: path, title: t, cover: cover})
             }
         }
@@ -91,8 +91,8 @@ class FourKHD extends ComicSource {
     // ============ 搜索（箭头函数确保 this 指向类实例） ============
     search = {
         load: (k, o, p) => {
-            var url = "https://www.4khd.com/search/" + encodeURIComponent(k) + "/"
-            if (p > 1) url = "https://www.4khd.com/search/" + encodeURIComponent(k) + "/page/" + p + "/"
+            var url = "https://feza.uuss.uk/" + encodeURIComponent(k) + "/"
+            if (p > 1) url = "https://feza.uuss.uk/search/" + encodeURIComponent(k) + "/page/" + p + "/"
             return Network.get(url, {}).then((r) => {
                 if (r.status !== 200) throw "err"
                 return this.parseList(r.body)
@@ -109,8 +109,8 @@ class FourKHD extends ComicSource {
             title: "4KHD",
             type: "multiPageComicList",
             load: (p) => {
-                var url = "https://www.4khd.com/pages/popular/"
-                if (p > 1) url = "https://www.4khd.com/pages/popular/?query-3-page=" + p
+                var url = "https://feza.uuss.uk/pages/popular/"
+                if (p > 1) url = "https://feza.uuss.uk/pages/popular/?query-3-page=" + p
                 return Network.get(url, {}).then((r) => {
                     if (r.status !== 200) throw "err"
                     return this.parseList(r.body)
@@ -138,8 +138,8 @@ class FourKHD extends ComicSource {
 
     categoryComics = {
         load: (cat, param, options, p) => {
-            var url = "https://www.4khd.com/pages/" + param + "/"
-            if (p > 1) url = "https://www.4khd.com/pages/" + param + "/?query-3-page=" + p
+            var url = "https://feza.uuss.uk/pages/" + param + "/"
+            if (p > 1) url = "https://feza.uuss.uk/pages/" + param + "/?query-3-page=" + p
             return Network.get(url, {}).then((r) => {
                 if (r.status !== 200) throw "err"
                 return this.parseList(r.body)
@@ -152,7 +152,7 @@ class FourKHD extends ComicSource {
     // ============ 详情 / 图片（箭头函数） ============
     comic = {
         loadInfo: (id) => {
-            var url = "https://www.4khd.com/" + id
+            var url = "https://feza.uuss.uk/" + id
             return Network.get(url, this.pageHeaders()).then((r) => {
                 if (r.status !== 200) throw "err"
                 var d = new HtmlDocument(r.body)
@@ -171,7 +171,7 @@ class FourKHD extends ComicSource {
             var allImgs = []
             var seen = {}
             var pageNum = 1
-            var baseUrl = "https://www.4khd.com/" + id
+            var baseUrl = "https://feza.uuss.uk/" + id
             var self = this
 
             function fetchPage() {
