@@ -1,0 +1,50 @@
+[
+    {
+        "name": "MangaForFree",
+        "fileName": "mangaforfree.js",
+        "key": "mangaforfree",
+        "version": "0.6.3",
+        "description": "生肉漫画"
+    },
+    {
+        "name": "4KHD",
+        "fileName": "4khd.js",
+        "key": "fourkhd",
+        "version": "1.4.3",
+        "description": "真人图包"
+    },
+    {
+        "name": "CosplayTele",
+        "fileName": "cosplaytele.js",
+        "key": "cosplaytele",
+        "version": "1.6.1",
+        "description": "真人图包"
+    },
+        "name": "51漫画",
+        "fileName": "51manga.js",
+        "key": "manga51",
+        "version": "1.1.0",
+        "description": "正经漫画"
+    },
+    {
+        "name": "嗶哩漫畫",
+        "fileName": "bilimanga.js",
+        "key": "bilimanga",
+        "version": "1.1.0",
+        "description": "正经漫画"
+    },
+    {
+        "name": "如漫画",
+        "fileName": "rumanhua.js",
+        "key": "rumanhua",
+        "version": "1.0.0",
+        "description": "正经漫画"
+    },
+    {
+        "name": "zero搬运网",
+        "fileName": "zerobyw33.js",
+        "key": "zerobyw33",
+        "version": "1.2.0",
+        "description": "正经漫画"
+    }
+]
